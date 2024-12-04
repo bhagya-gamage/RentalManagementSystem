@@ -23,7 +23,8 @@ public class CustomerServiceImpl implements CustomerService{
         repository.findAll().forEach(entity->{
             customerArrayList.add(mapper.map(entity, Customer.class));
         });
-        return customerArrayList;    }
+        return customerArrayList;
+    }
 
     @Override
     public void addCustomer(Customer customer) {
