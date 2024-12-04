@@ -12,8 +12,7 @@ import lombok.ToString;
 public class Item {
     private Integer itemId;
     private String name;
-    private Boolean availability;
-    private String contact;
+    private String availability;
     private Double rentalPerDay;
     private Double finePerDay;
 }
