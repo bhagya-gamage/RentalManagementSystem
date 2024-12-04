@@ -12,7 +12,6 @@ import lombok.ToString;
 public class Customer {
     private Integer id;
     private String name;
-    private String address;
-    private String email;
+    private String city;
     private String contact;
 }
